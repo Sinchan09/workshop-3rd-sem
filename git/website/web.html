@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Simple Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home">
+        <div class="container">
+            <h2>Welcome to My Website</h2>
+            <p>This is a simple example of a website using HTML, CSS, and JavaScript.</p>
+            <button id="alertButton">Click Me!</button>
+        </div>
+    </main>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are passionate about web development and love creating beautiful websites.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Simple Website</p>
+        </div>
+    </footer>
+
+    <script src="web.js"></script>
+</body>
+</html>
